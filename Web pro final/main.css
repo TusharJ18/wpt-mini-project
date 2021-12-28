@@ -1,0 +1,110 @@
+
+
+html, body{
+
+    margin: 0;
+    /* width: 100%;
+    height: 100px; */
+    overflow-x:hidden;
+}
+
+.top{
+
+    display: flex;
+    height: 80px;
+    /* background-color: red; */
+    align-items: center;
+    position: relative;
+    background: rgba(255, 255, 255, 0.2);
+    align-self: normal;
+    /* justify-self: flex-start; */
+
+    flex-wrap: wrap;
+
+}
+
+
+.topmiddle{
+
+    display: flex;
+    
+    /* background-color: green; */
+   /* height: 60px; */
+    /* width: 350px; */
+    width: 350px;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+
+.title{
+
+    display: flex;
+    align-items: center;
+    /* background-color: yellow; */
+    height: 60px;
+    width: 250px;
+    /* position: relative; */
+
+}
+
+#beutify-premier{
+
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+    opacity: 0.9;
+
+}
+
+#beutify-the-rest{
+
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+    font-size: 12px;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-weight: bold;
+
+
+}
+
+/* .top-links{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+} */
+
+.beautify-links{
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.4);
+
+    height: 18px;
+    border-radius: 2px;
+    border-style: unset;
+    
+    cursor: pointer;
+    transition: all 0.5s;
+    
+}
+
+.beautify-links:hover{
+/* 
+    background: white;
+    color: ; */
+
+    color: black;
+    background: whitesmoke;
+    box-shadow: 0 0 15px whitesmoke;
+}
+
+
+

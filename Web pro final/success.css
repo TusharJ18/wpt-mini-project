@@ -1,0 +1,47 @@
+html,
+body {
+    margin: 0px;
+}
+
+.back {
+    background: lavender;
+    display: flex;
+    height: 100vh;
+}
+
+.h2 {
+    font-size: 60px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center; 
+
+}
+
+.place1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    font-size:x-large;
+    font-weight: bold;
+    color: darkslateblue;
+
+}
+
+.button1 {
+    height: 30px;
+    width: 30vw;
+    border-radius: 8px;
+    border: none;
+    font-size: large;
+    background: plum;
+    font-weight: bold;
+}
+
+.button1:hover {
+    background:violet;
+    transition: 1s;
+}
